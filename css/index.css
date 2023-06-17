@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*tags*/
+body {
+  background-color: #F6F1F1;
+}
+
+header {
+  background-image: url(../img/fundo_cabecalho.jpg);
+  height: 400px;
+  width: 100%;
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+h2 {
+  margin-left: 150px;
+  font-family: 'Lobster';
+  text-align: left;
+}
+
+#lanches>div, #jantar>div, #sobremesas>div{
+  padding: 20px;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.293);
+}
+
+#jantar >div{
+  padding: 20px;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.293);
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: transparent;
+  background-color: #DC0000;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+table{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+td{
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 30%;
+}
+
+#p_lanches>h3 {
+  text-align: justify;
+}
+
+#p_lanches>p {
+  text-align: left;
+}
+
+footer>div>div>img {
+  height: 40px;
+  width: 40px;
+}
+
+/*ids*/
+#header {
+  margin: 20px;
+  float: right;
+}
+
+#cadastro {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-decoration: inherit;
+}
+
+#login {
+  padding: 10px 20px;
+  background-color: #DC0000;
+  color: white;
+  border: 2px solid #DC0000;
+  border-radius: 20px;
+  text-decoration: inherit;
+}
+
+#lanches {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#jantar{
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#sobremesas{
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#cabecalho{
+  background-color: lightgray;
+}
+
+#p_lanches {
+  display: none;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+#footer {
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/*classes*/
+.lanches_img {
+  width: 150px;
+  height: 150px;
+}
+
+.p_lanches {
+  text-align: left;
+  display: none;
+}
+
+.categoria{
+  background-color: #DC0000;
+  color: #F6F1F1;
+}
+
+.img_left {
+  width: 300px;
+  height: 300px;
+  float: left;
+  filter: brightness(80%);
+}
+
+.img_right {
+  width: 300px;
+  height: 300px;
+  float: right;
+  filter: brightness(80%);
+}
+
+/*pseudoclasses*/
+#cadastro:hover {
+  background-color: white;
+  color: black;
+}
+
+#login:hover {
+  background-color: transparent;
+  color: #DC0000;
+}
+
+#lanches>div:hover, #jantar>div:hover, #sobremesas>div:hover {
+  background: linear-gradient(to bottom, lightgray, transparent);
+
+}
+
+.lanches_img:hover {
+  filter: brightness(70%);
+}
+
+td:hover{
+  border: 1px solid #DC0000;
+}
+
+button:hover {
+  border: 1px solid #850000;
+  background-color: transparent;
+  font-size: 14px;
+  color: #850000;
+  transition: 500ms;
+}
