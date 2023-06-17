@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*tags*/
+body {
+  background-color: #F6F1F1;
+}
+
+hr{
+  border: 1px solid #850000;
+}
+
+img{
+  height: 400px;
+  width: 400px;
+}
+
+input{
+  margin: 5px;
+  border: 2px solid transparent;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  transition: 500ms;
+}
+
+p{
+  font-weight: bold;
+}
+
+a{
+  text-decoration: inherit;
+  color: #DC0000;
+}
+
+footer{
+  margin: 60px;
+}
+
+footer>div>div>img {
+  height: 40px;
+  width: 40px;
+}
+
+
+/*ids*/
+#sides{
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid lightgray;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+  display: flex;
+  width: 70%;
+}
+
+#side1{
+  margin: 0;
+}
+
+#side2{
+  margin-left: 10px;
+  width: 60%;
+  text-align: center;
+}
+
+#entrar{
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: transparent;
+  background-color: #DC0000;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+#entrar{
+  color: #F6F1F1;
+}
+
+#btn_entrar{
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/*classes*/
+
+
+/*pseudoclasses*/
+input:hover{
+  border: 2px solid transparent;
+  border-bottom: 2px solid #DC0000;
+  transition: 500ms;
+}
+
+#entrar:hover {
+  border: 1px solid #850000;
+  background-color: transparent;
+  font-size: 14px;
+  color: #850000;
+  transition: 500ms;
+}
