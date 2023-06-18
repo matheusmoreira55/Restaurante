@@ -29,7 +29,7 @@ h2 {
   text-align: left;
 }
 
-#lanches>div, #jantar>div, #sobremesas>div{
+#lanches>div, #jantar>div, #sobremesas>div, #bebidas>div{
   padding: 20px;
   border: solid 1px lightgray;
   border-radius: 5px;
@@ -86,24 +86,35 @@ td{
 
 footer>div>div>img{
   margin: 10px;
+  height: 40px;
+  width: 40px;
   border: 2px solid white;
   border-radius: 20px;
   background-color: white;
+  transition: 500ms;
+}
+
+footer>a{
+  text-decoration: inherit;
+  color: #F6F1F1;
+}
+
+footer>p, footer>a{
+  padding: 5px;
+  opacity: 0.8;
+  transition: 500ms;
 }
 
 footer{
   margin: 0;
-  margin-top: 30px;
+  margin-top: 50px;
+  height: 250px;
   padding: 20px 0;
   width: 100%;
   background-color: black;
   color: #F6F1F1;
 }
 
-footer>div>div>img {
-  height: 40px;
-  width: 40px;
-}
 
 /*ids*/
 #header {
@@ -113,20 +124,37 @@ footer>div>div>img {
 
 #cadastro {
   padding: 10px 20px;
+  font-weight: bold;
   background-color: transparent;
   color: white;
   border: 2px solid white;
   border-radius: 20px;
   text-decoration: inherit;
+  transition: 500ms;
 }
 
 #login {
   padding: 10px 20px;
+  font-weight: bold;
   background-color: #DC0000;
   color: white;
   border: 2px solid #DC0000;
   border-radius: 20px;
   text-decoration: inherit;
+  transition: 500ms;
+}
+
+#sair{
+  margin: 10px;
+  padding: 10px 20px;
+  float: right;
+  font-weight: bold;
+  background-color: #DC0000;
+  color: white;
+  border: 2px solid #DC0000;
+  border-radius: 20px;
+  text-decoration: inherit;
+  transition: 500ms;
 }
 
 #lanches {
@@ -152,6 +180,17 @@ footer>div>div>img {
 }
 
 #sobremesas{
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#bebidas{
   margin: auto;
   padding: 20px;
   width: 80%;
@@ -194,39 +233,36 @@ footer>div>div>img {
   display: none;
 }
 
+.footer_img{
+  width: 20%;
+}
+
 .categoria{
   background-color: #DC0000;
   color: #F6F1F1;
-}
-
-.img_left {
-  width: 300px;
-  height: 300px;
-  float: left;
-  filter: brightness(80%);
-}
-
-.img_right {
-  width: 300px;
-  height: 300px;
-  float: right;
-  filter: brightness(80%);
 }
 
 /*pseudoclasses*/
 #cadastro:hover {
   background-color: white;
   color: black;
+  transition: 500ms;
 }
 
 #login:hover {
   background-color: transparent;
   color: #DC0000;
+  transition: 500ms;
 }
 
-#lanches>div:hover, #jantar>div:hover, #sobremesas>div:hover {
-  background: linear-gradient(to bottom, lightgray, transparent);
+#sair:hover {
+  background-color: transparent;
+  color: #DC0000;
+  transition: 500ms;
+}
 
+#lanches>div:hover, #jantar>div:hover, #sobremesas>div:hover, #bebidas>div:hover {
+  background: linear-gradient(to bottom, lightgray, transparent);
 }
 
 #p_lanches:hover{
@@ -247,5 +283,18 @@ button:hover {
   background-color: transparent;
   font-size: 14px;
   color: #850000;
+  transition: 500ms;
+}
+
+footer > div > div > img:hover{
+  cursor: pointer;
+  background-color: #DC0000;
+  border: 2px solid #850000;
+  transition: 500ms;
+}
+
+footer>p:hover, footer>a:hover{
+  opacity: 0.9;
+  font-weight: bold;
   transition: 500ms;
 }

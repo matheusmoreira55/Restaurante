@@ -33,6 +33,7 @@ p{
 a{
   text-decoration: inherit;
   color: #DC0000;
+  transition: 500ms;
 }
 
 footer{
@@ -104,4 +105,8 @@ input:hover{
   font-size: 14px;
   color: #850000;
   transition: 500ms;
+}
+
+a:hover{
+  font-size: 15px;
 }

@@ -1,4 +1,15 @@
 /*tags*/
+body{
+  background-image: url(../img/fundo_cabecalho.jpg);
+}
+
+input{
+  margin: 5px;
+  border: 2px solid transparent;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  transition: 500ms;
+}
+
 select{
   margin-left: 3px;
 }
@@ -21,6 +32,20 @@ a{
 /*ids*/
 
 /*classes*/
+.form{
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding: 2%;
+  padding-bottom: 6%;
+  background-color: #F6F1F1;
+  width: 50%;
+  height: 70%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px black;
+}
+
 .gender-group{
   display: inline-flex;
 }
@@ -34,5 +59,11 @@ a:hover {
   background-color: transparent;
   font-size: 14px;
   color: #850000;
+  transition: 500ms;
+}
+
+input:hover{
+  border: 2px solid transparent;
+  border-bottom: 2px solid #DC0000;
   transition: 500ms;
 }
