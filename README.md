@@ -1,2 +1,2 @@
 # Restaurante
- Sistema de restaurante para seleçâo da UX
+ Sistema de restaurante para seleção da UX
