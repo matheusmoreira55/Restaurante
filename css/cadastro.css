@@ -5,13 +5,19 @@ body{
 
 input{
   margin: 5px;
+  background-color: transparent;
   border: 2px solid transparent;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid lightgray;
   transition: 500ms;
 }
 
 select{
   margin-left: 3px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid lightgray;
+  opacity: 0.8;
+  transition: 500ms;
 }
 
 a{
@@ -64,6 +70,21 @@ a:hover {
 
 input:hover{
   border: 2px solid transparent;
-  border-bottom: 2px solid #DC0000;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.9);
   transition: 500ms;
+}
+
+input:focus{
+  outline: 0;
+  border-bottom: 2px solid #DC0000;
+}
+
+select:hover{
+  border-bottom: 2px solid gray;
+  transition: 500ms;
+}
+
+select:focus{
+  outline: 0;
+  border-bottom: 2px solid #DC0000;
 }

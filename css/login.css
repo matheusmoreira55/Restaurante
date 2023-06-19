@@ -21,8 +21,9 @@ img{
 
 input{
   margin: 5px;
+  background-color: transparent;
   border: 2px solid transparent;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid lightgray;
   transition: 500ms;
 }
 
@@ -51,7 +52,9 @@ footer>div>div>img {
   margin: auto;
   margin-top: 10%;
   border: 1px solid lightgray;
-  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 24px 45px 72px -34px rgba(0,0,0,0.40);
+  -moz-box-shadow: 24px 45px 72px -34px rgba(0,0,0,0.40);
+  box-shadow: 24px 45px 72px -34px rgba(0,0,0,0.40);
   display: flex;
   width: 70%;
 }
@@ -95,8 +98,13 @@ footer>div>div>img {
 /*pseudoclasses*/
 input:hover{
   border: 2px solid transparent;
-  border-bottom: 2px solid #DC0000;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.9);
   transition: 500ms;
+}
+
+input:focus{
+  outline: 0;
+  border-bottom: 2px solid #DC0000;
 }
 
 #entrar:hover {

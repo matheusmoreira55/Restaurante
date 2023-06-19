@@ -11,9 +11,8 @@ body {
 }
 
 header {
-  background-image: url(../img/header.png);
-  background-position: center;
-  height: 400px;
+  background-color: black;
+  height: 250px;
   width: 100%;
 }
 
@@ -29,19 +28,15 @@ h2 {
   text-align: left;
 }
 
-#lanches>div, #jantar>div, #sobremesas>div, #bebidas>div{
+#lanches>div, #jantar>div, #sobremesas>div, #bebidas>div, #jantar >div{
   padding: 20px;
   border: solid 1px lightgray;
   border-radius: 5px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.293);
+  -webkit-box-shadow: 22px 41px 39px -34px rgba(0,0,0,0.39);
+  -moz-box-shadow: 22px 41px 39px -34px rgba(0,0,0,0.39);
+  box-shadow: 22px 41px 39px -34px rgba(0,0,0,0.39);
 }
 
-#jantar >div{
-  padding: 20px;
-  border: solid 1px lightgray;
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.293);
-}
 
 p {
   margin: auto;
@@ -223,6 +218,16 @@ footer{
 }
 
 /*classes*/
+.head{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.btns{
+  float: right;
+}
+
 .lanches_img {
   width: 150px;
   height: 150px;
