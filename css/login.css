@@ -64,7 +64,10 @@ footer>div>div>img {
 }
 
 #side2{
-  margin-left: 10px;
+  margin: auto;
+  margin-bottom: 0;
+  padding: 5%;
+  padding-top: 0;
   width: 60%;
   text-align: center;
 }
@@ -107,4 +110,10 @@ input:focus{
 
 a:hover{
   font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  #side1{
+    display: none;
+  }
 }

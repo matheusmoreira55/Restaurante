@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: black;
-  height: 25vh;
+  height: 20vh;
   width: 100%;
   border-bottom: 3px solid #DC0000;
 }
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  margin-left: 150px;
+  margin-left: 10%;
   font-family: 'Lobster';
   text-align: left;
 }
@@ -123,6 +123,11 @@ footer{
 
 
 /*ids*/
+#body-index{
+  background-image: url(../img/fundo_cabecalho.jpg);
+  color: #F6F1F1;
+}
+
 #header {
   margin: 20px;
   float: right;
@@ -150,7 +155,6 @@ footer{
   text-decoration: inherit;
   transition: 500ms;
 }
-
 
 #sair{
   margin: 10px;
@@ -233,10 +237,9 @@ footer{
 /*classes*/
 .head{
   margin: auto;
-  margin-top: 1%;
-  margin-left: 3%;
-  width: 35vh;
-  height: 14vh;
+  margin-top: 2vh;
+  margin-left: 5vh;
+  height: 10vh;
   float: left;
 }
 
@@ -247,6 +250,7 @@ footer{
 .lanches_img {
   width: 150px;
   height: 150px;
+  transition: 250ms;
 }
 
 .p_lanches {
@@ -287,12 +291,17 @@ footer{
 }
 
 #p_lanches:hover{
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 28px 36px 76px -40px rgba(0,0,0,0.3);
+  -moz-box-shadow: 28px 36px 76px -40px rgba(0,0,0,0.3);
+  box-shadow: 28px 36px 76px -40px rgba(0,0,0,0.3);
   transition: 250ms;
 }
 
 .lanches_img:hover {
   filter: brightness(70%);
+  height: 155px;
+  width: 155px;
+  transition: 250ms;
 }
 
 td:hover{
