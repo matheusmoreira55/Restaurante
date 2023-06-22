@@ -17,9 +17,10 @@
 </head>
 
 <body>
+  <form action="consulta.php" method="POST">
   <div id="sides">
     <div id="side1">
-      <img id="img-side1" src="img/side.png" alt="">
+      <img src="img/side.png" alt="">
     </div>
     <div id="side2">
       <h1>Entrar</h1>
@@ -30,16 +31,20 @@
             <label id="userLabel" for="usuario">Usuário</label>
             <input type="text" id="usuario" name="usuario" size="25" placeholder="Digite seu nome de usuário"
               required />
-          </div>
+          </div><br>
 
           <div class="input-box">
-            <label id="senhaLabel" for="senha">Senha</label>
-            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required />
+            <label id="senhaLabel" for="senha">Email</label>
+            <input type="varchar" id="email" name="email" placeholder="Digite sua senha" required />
             <i class="fa fa-eye" aria-hidden="true"></i>
           </div>
         </div>
+         <div>
+         <input type="submit">
+         </div>
+       <br>
         <div class="justify-center">
-          <button onclick="entrar()" id="btn_entrar" type="submit">Entrar</button>
+          <button onclick="entrar()" id="btn_entrar"> <a id="entrar" href="cardapio.php">Entrar</a></button>
         </div><br>
 
         <div class="justify-center">
@@ -48,13 +53,13 @@
 
         <p>
           Não tem uma conta?
-          <a href="cadastro.html">Cadastre-se
+          <a href="cardapio.php">Cadastre-se
           </a>
         </p>
       </div>
     </div>
   </div>
-
+</form>
   <script src="login.js"></script>
 </body>
 

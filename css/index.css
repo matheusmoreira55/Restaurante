@@ -21,6 +21,7 @@ h1 {
   margin: 50px;
   text-align: center;
   font-family: 'Lobster';
+  transition: 500ms;
 }
 
 h2 {
@@ -43,6 +44,7 @@ p {
   margin: auto;
   text-align: center;
   width: 80%;
+  transition: 500ms;
 }
 
 button {
@@ -94,9 +96,10 @@ footer>div>div>img{
   margin: 10px;
   height: 40px;
   width: 40px;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid #F6F1F1;
   border-radius: 20px;
-  background-color: white;
+  background-color: #F6F1F1;
   transition: 500ms;
 }
 
@@ -125,7 +128,21 @@ footer{
 /*ids*/
 #body-index{
   background-image: url(../img/fundo_cabecalho.jpg);
-  color: #F6F1F1;
+}
+
+#index-content{
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding: 2%;
+  padding-bottom: 6%;
+  background-color: #F6F1F1;
+  width: 50%;
+  height: 70%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px black;
+  transition: 500ms;
 }
 
 #header {
@@ -270,19 +287,39 @@ footer{
 /*pseudoclasses*/
 #cadastro:hover {
   background-color: white;
+  font-size: 15px;
   color: black;
   transition: 500ms;
 }
 
 #login:hover {
   background-color: transparent;
+  font-size: 15px;
   color: #DC0000;
   transition: 500ms;
 }
 
 #sair:hover {
   background-color: transparent;
+  font-size: 15px;
   color: #DC0000;
+  transition: 500ms;
+}
+
+#index-content:hover{
+  padding: 3%;
+  padding-bottom: 7%;
+  width: 51%;
+  transition: 500ms;
+}
+
+#index-content > h1:hover{
+  font-size: 33px;
+  transition: 500ms;
+}
+
+#index-content > p:hover{
+  font-size: 17px;
   transition: 500ms;
 }
 
