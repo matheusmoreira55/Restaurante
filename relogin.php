@@ -17,24 +17,27 @@
 </head>
 
 <body>
+  <form action="consulta.php" method="POST">
   <div id="sides">
     <div id="side1">
       <img id="img-side1" src="img/side.png" alt="">
     </div>
     <div id="side2">
+      
       <h1>Entrar</h1>
       <div class="container">
         <div id="msgError"></div>
         <div class="input-group">
           <div class="input-box">
+          <h5 class="aviso">insira as informações corretamente<h5>
             <label id="userLabel" for="usuario">Usuário</label>
             <input type="text" id="usuario" name="usuario" size="25" placeholder="Digite seu nome de usuário"
               required />
           </div>
 
           <div class="input-box">
-            <label id="senhaLabel" for="senha">Senha</label>
-            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required />
+            <label id="senhaLabel" for="email">Email</label>
+            <input type="password" id="email" name="email" placeholder="Digite sua senha" required />
             <i class="fa fa-eye" aria-hidden="true"></i>
           </div>
         </div>
@@ -48,14 +51,13 @@
 
         <p>
           Não tem uma conta?
-          <a href="cadastro.html">Cadastre-se
+          <a href="cadastro.php">Cadastre-se
           </a>
         </p>
       </div>
     </div>
   </div>
-
-  <script src="login.js"></script>
+</form>
 </body>
 
 </html>

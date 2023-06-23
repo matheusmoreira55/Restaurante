@@ -36,9 +36,7 @@ header("Location: cardapio.php");
 exit; // Certifique-se de chamar exit ou die após o redirecionamento para interromper a execução do script atual
     } else {
 
-        $script = 'consulta.js';
-
-        $resultado = exec("node $script");;
+        header("Location: relogin.php");
     }
 
     // Fecha a conexão

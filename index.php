@@ -19,8 +19,8 @@
     <div id="header">
       <img class="head" src="img/logob.png" alt="">
       <div class="btns">
-        <a href="cadastro.html" id="cadastro">Cadastre-se</a>
-        <a href="login.html" id="login">Login</a>
+        <a href="cadastro.php" id="cadastro">Cadastre-se</a>
+        <a href="login.php" id="login">Login</a>
       </div>
     </div>
   </header>

@@ -28,7 +28,7 @@
                             <div class="form-header">
                                 <h1>Cadastre-se</h1>
                             </div>
-            
+                      <h5>insira o código corretamente<h5>
                             <div class="input-group">
                                 <div class="input-box">
                                     <label id="labelNome" for="nome">Nome Completo</label>
@@ -37,7 +37,8 @@
             
                                 <div class="input-box">
                                     <label id="labelS" for="cpf">CPF</label>
-                                    <input id="lastname" type="text" name="cpf" size="25" placeholder="   .   .    -  "
+                                    <input id="cpf" type="text" name="cpf" size="25" placeholder="   .   .    -  " required oninput="formatarCampo(this)">
+
                                         required>
                                 </div>
                                 <div class="input-box">
@@ -57,18 +58,18 @@
                                 <form method="get" action=".">
                  
                   
-                   <div class="input-box">
-                    <label id="labelCidade" for="cidade" >Cidade:
-                    <input name="cidade" type="text" id="cidade" size="25" placeholder="digite sua cidade"/></label><br />
-                    </div>
-                    <div class="input-box">
-                    <label id="labelEstado" for="uf" >Estado:
-                    <input name="uf" type="text" id="uf" size="25"  placeholder="digite seu estado"/></label><br />
-                    <div>
-                     <div class="input-box">
-                    <label id="labelBairro" for="ibge">Bairro:
-                    <input name="ibge" type="text" id="ibge" size="25" placeholder="digite seu bairro" required/></label><br />
-                    </div>
+                              <div class="input-box">
+                                    <label id="labelCidade" for="cidade" >Cidade:
+                                    <input name="cidade" type="text" id="cidade" size="25" placeholder="digite sua cidade"/></label><br />
+                              </div>
+                            <div class="input-box">
+                                     <label id="labelEstado" for="uf" >Estado:
+                                     <input name="uf" type="text" id="uf" size="25"  placeholder="digite seu estado"/></label><br />
+                             <div>
+                             <div class="input-box">
+                                   <label id="labelBairro" for="ibge">Bairro:
+                                   <input name="ibge" type="text" id="ibge" size="25" placeholder="digite seu bairro" required/></label><br />
+                            </div>
                 </form>
                     </div>
                 <script>
